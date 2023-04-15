@@ -1,0 +1,179 @@
+* {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow: hidden;
+}
+@media (max-width: 1300px) {
+		* {
+			zoom: 70%
+		}
+	}
+
+	@media (min-width: 1301px) and (max-width: 1400px) {
+		* {
+			zoom: 80%
+		}
+	}
+
+	@media (min-width: 1401px) and (max-width: 1650px) {
+		* {
+			zoom: 80%
+		}
+	}
+
+	@media (min-width: 1651px) and (max-width: 2560px) {
+		* {
+			zoom: 100%
+		}
+	}
+.container {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+.container .bg {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    
+    background: radial-gradient(80.81% 255.39% at 130.81% 107.64%, rgba(255, 0, 0, 0.2) 0%, rgba(255, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(231.81% 253.99% at -30.36% -131.81%, #FF0000 0%, rgba(63, 63, 63, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.container .text {
+    position: absolute;
+    width: 915px;
+    height: 123px;
+    left: 502px;
+    top: 154px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 123px;
+    
+    color: #FFFFFF;    
+}
+.bar {
+    position: absolute;
+    width: 860px;
+    height: 134px;
+    left: 530px;
+    top: 606px;
+    
+    background: #258715;
+    box-shadow: 0px 4px 80px #1EAA07;
+}
+.lay {
+    position: absolute;
+    width: 142px;
+    height: 134px;
+    left: 1248px;
+    top: 606px;
+    
+    background: #424242;
+}
+.percent {
+    position: absolute;
+    width: 192px;
+    height: 123px;
+    left: 847px;
+    top: 613px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 123px;
+
+    color: #FFFFFF;
+}
+.sub {
+    position: absolute;
+    width: 432px;
+    height: 123px;
+    left: 744px;
+    top: 761px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 123px;
+    
+    color: #FFFFFF;
+}
+.bonus {
+    position: absolute;
+    width: 828px;
+    height: 79px;
+    left: 546px;
+    top: 953px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 74px;
+    
+    color: #FFFFFF;    
+}
+.t {
+    position: absolute;
+    width: 170px;
+    height: 247px;
+    left: 228px;
+    top: 268px;
+    background: url(../../image1.png);
+}
+.tt {
+    position: absolute;
+    width: 152px;
+    height: 242px;
+    left: 758px;
+    top: 306px;
+    background: url(../../image2.png);
+}
+.ttt {
+    position: absolute;
+    width: 182px;
+    height: 221px;
+    left: 1473px;
+    top: 289px;
+    background: url(../../image3.png);
+}
+.tttt {
+    position: absolute;
+    width: 197px;
+    height: 237px;
+    left: 1511px;
+    top: 719px;
+    background: url(../../image4.png);
+}
+.ttttt {
+    position: absolute;
+    width: 221px;
+    height: 222px;
+    left: 135px;
+    top: 761px;
+    background: url(../../image5.png);
+}
+.hz {
+    position: absolute;
+    width: 1212px;
+    height: 122px;
+    left: 22px;
+    top: 6px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #FFFFFF;    
+}
